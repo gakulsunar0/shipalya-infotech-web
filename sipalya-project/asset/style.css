@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar start */
+
+.sipalaya-logo img{
+    max-width: 170px;
+}
+.main-header{
+display: flex;
+justify-content: space-around;
+background-color: #F7F9FA;
+}
+
+.menu_main-container ul li{
+    display: inline-block;
+    margin: 10px;
+    padding:10px;
+    font-size: 18px;
+   
+}
+.menu_main-container ul li a{
+    color: black;
+    text-decoration: none;
+  
+}
+ul li a:hover{
+
+    color: blue;
+    text-decoration: underline;
+}
+.navbar_unit{
+    position: relative;
+}
+.search_btn{
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+
+}
+.carts{
+     position: relative;
+    top: 20px;
+    left: 40px;
+    font-size: 20px; 
+    
+}
+/* navbar end */
+/* section start */
+
+.top_body{
+    text-align: center;
+    color: blue;
+}
+.main_heading{
+   padding: 50px;
+    font-size: 30px;
+   
+}
+.main_seccond_heading{
+font-size: 24px;
+margin-bottom: 16px;
+}
+.main_paragraph{
+    font-size: 24px;
+}
+
+/* section end */
